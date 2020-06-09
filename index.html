@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Open Layers</title>
+  <style>
+    html,
+    body {
+      margin: 0;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .light {
+      background-color: #ffffff;
+      color: #333333;
+    }
+
+    .dark {
+      background-color: #333333;
+      color: #ffffff;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    section {
+      padding: 2em 1em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    section div {
+      width: 100%;
+      max-width: 960px;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+  </style>
+  <link rel="icon" type="image/svg+xml" href="./logo-light.svg">
+</head>
+
+<body>
+  <section class="dark">
+    <div>
+      <h2>dark</h2>
+      <div class="row">
+        <img width="18" height="18" src="./logo-dark.svg">
+        <img width="36" height="36" src="./logo-dark.svg">
+        <img width="72" height="72" src="./logo-dark.svg">
+        <img width="142" height="142" src="./logo-dark.svg">
+      </div>
+    </div>
+  </section>
+  <section class="light">
+    <div>
+      <h2>light</h2>
+      <div class="row">
+        <img width="18" height="18" src="./logo-light.svg">
+        <img width="36" height="36" src="./logo-light.svg">
+        <img width="72" height="72" src="./logo-light.svg">
+        <img width="142" height="142" src="./logo-light.svg">
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
